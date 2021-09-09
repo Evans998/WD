@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: Revalia, serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+    margin-top: -22px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 512px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    margin-top: 72px;
+}
+
+.nav__link {
+    color: #000000;
+}
+
+.hero {
+    background: #eeeff1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;
+}
+
+.hero__img {
+    margin-left: 85px;
+}
+
+.info__block {
+    max-width: 540px;
+    width: 100%;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.info__desc {
+    line-height: 26px;
+    color: #727272;
+}
+
+.button {
+    margin-top: 60px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 25px 41px;
+    background: #34547A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.section__about {
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.hero__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__title {
+    margin-bottom: 50px;
+}
+
+.section__desc {
+    text-align: center;
+}
+
+.section__projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #34547A;
+}
+
+.text__block {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.block__title {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.block__desc {
+    line-height: 26px;
+}
+
+.section__skills {
+    margin-top: 102px;
+}
+
+.skills__title {
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.skills__desc {
+    margin-top: 50px;
+}
+
+.skills__line {
+    margin-top: 20px;
+    background: linear-gradient(to right, #335783 80%, #c4c4c4 80%, #c4c4c4 100%);
+    width: 455px;
+    height: 4px;
+}
+
+.skills__img {
+    width: 555px;
+    margin-bottom: 101px;
+}
+
+.section__about {
+    background: #EEEFF1;
+}
+
+.work__video {
+    margin-top: 57px;
+    width: 1110px;
+    height: 600px;
+}
+
+.section__gallery {
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+    background-color: #ffffff;
+}
+
+.gallery__line {
+    display: flex;
+}
+
+.gallery__img {
+    max-width: 480px;
+    width: 100%;
+    min-height: 400px;
+    cursor: pointer;
+    position: relative;
+}
+
+.gallery__img:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(52, 84, 122, 0.8) url(../img/view.svg) no-repeat center;
+}
+
+.gallery__img__1 {
+    background: url(../img/Rectangle7.png);
+}
+
+.gallery__img__2 {
+    background: url(../img/Rectangle6.png);
+}
+
+.section__clients {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clients__block {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    max-width: 540px;
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__line__1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form__input {
+    height: 50px;
+    width: 255px;
+    border: none;
+    padding-left: 20px;
+}
+
+.form__textarea {
+    height: 175px;
+    width: 540px;
+    resize: none;
+    border-radius: 0px;
+    border: none;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+
+.form__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section__footer {
+    background-color: #34547A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__rights {
+    color: #ffffff;
+}
+
+.footer__rights__name {
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.footer__social {
+    max-width: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
